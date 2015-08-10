@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <include 
+        layout="@layout/newbrain_all_actionbar"
+        
+        />
+    
+    
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView
+            style="@style/device_information_textview"
+            android:text="@string/illegal_query_city" />
+
+        <Button
+            android:id="@+id/illegal_query_city"
+            style="@style/all_edittext_right"
+            android:gravity="center_vertical"
+            android:hint="@string/illegal_please_input_query_city"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+    
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="12dp" >
+
+        <TextView
+            style="@style/device_information_textview"
+            android:text="@string/illegal_car_num" />
+        
+        
+        <TextView 
+            android:id="@+id/illegal_car_num_head"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="@color/theme_text_normal_color_black"
+            android:textSize="@dimen/textsize_middle"
+            android:gravity="center"
+            android:text="粤"
+            android:layout_marginLeft="8dip"
+            />
+
+        <EditText
+            android:id="@+id/illegal_car_num"
+            style="@style/all_edittext_right"
+            android:layout_marginLeft="2dip"
+            android:text="BU3D20"
+            android:hint="@string/illegal_please_input_car_num"
+            />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView
+            style="@style/device_information_textview"
+            android:text="@string/illegal_engine" />
+
+        <EditText
+            android:id="@+id/illegal_engine"
+            style="@style/all_edittext_right"
+            android:text="110657"
+            android:hint="@string/illegal_please_input_engine"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView
+            style="@style/device_information_textview"
+            android:text="@string/illegal_VIN" />
+
+        <EditText
+            android:id="@+id/illegal_VIN"
+            style="@style/all_edittext_right"
+            android:text="132672"
+            android:hint="@string/illegal_please_input_VIN"
+            />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    
+
+    <Button
+        android:id="@+id/illegel_confirm_qurey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="20dip"
+        android:paddingTop="6dip"
+        android:paddingBottom="6dip"
+        android:textColor="@color/white"
+        android:background="@drawable/button_blue"
+        android:text="保存并查询" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/location_service_bmapView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:id="@+id/location_service_linear_location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_background_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="8dip"
+        android:paddingTop="8dip" >
+
+        <TextView
+            android:id="@+id/location_service_address"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dip"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:text="位置：广东省深圳市宝安区倾向路"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="8dip"
+            android:background="@drawable/locationservice_button_bg"
+            android:padding="5dip"
+            android:text="到这去" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/location_service_linear_location"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/location_service_car_friends"
+            style="@style/homepager_button"
+            android:layout_marginTop="60dip"
+            android:background="@drawable/car_friends" />
+
+        <Button
+            android:id="@+id/location_service_record"
+            style="@style/homepager_button"
+            android:background="@drawable/record" />
+
+        <Button
+            android:id="@+id/location_service_myself_location"
+            style="@style/homepager_button"
+            android:layout_marginTop="60dip"
+            android:background="@drawable/myself_location" />
+    </LinearLayout>
+
+</RelativeLayout>

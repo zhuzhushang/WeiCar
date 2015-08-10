@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dip"
+            android:src="@drawable/car_friends_group_verity_message" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="大白"
+                android:textColor="@color/theme_text_normal_color_black"
+                android:textSize="@dimen/textsize_max" />
+
+            <TextView
+                android:id="@+id/user_last_message"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="下星期一起吃饭呀"
+                android:textColor="@color/theme_text_normal_color_gary"
+                android:textSize="@dimen/textsize_middle" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/user_last_message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="3dip"
+            android:layout_marginRight="3dip"
+            android:text="18:50"
+            android:textColor="@color/theme_text_normal_color_gary"
+            android:textSize="@dimen/textsize_middle" />
+    </LinearLayout>
+
+</LinearLayout>

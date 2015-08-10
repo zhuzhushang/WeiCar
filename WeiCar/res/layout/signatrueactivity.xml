@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/newbrain_all_actionbar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dip" >
+
+        <EditText
+            android:id="@+id/signature_edittext"
+            android:layout_width="fill_parent"
+            android:layout_height="120dip"
+            android:background="@color/white"
+            android:gravity="top"
+            android:text="不经历风雨，"
+            android:textSize="16sp" />
+        
+        
+        <TextView 
+            android:id="@+id/signature_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="14sp"
+            android:textColor="@color/theme_text_normal_color_gary"
+            
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="4dip"
+            android:layout_marginBottom="4dip"
+            />
+        
+        
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/theme_driver_color" />
+
+</LinearLayout>

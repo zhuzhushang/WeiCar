@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/ra_arrow"
+        style="@style/personal_center_arrow" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="6dip"
+        android:paddingTop="6dip"
+        android:paddingBottom="6dip"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ra_name"
+            style="@style/personal_profile_textview_black"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:textSize="@dimen/textsize_max"
+            android:layout_marginLeft="0dip"
+            android:text="刚志龙尚未" />
+
+        <TextView
+            android:id="@+id/ra_address"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:textSize="@dimen/textsize_middle"
+            android:textColor="@color/theme_text_normal_color_gary"
+            android:text="广东深深圳市龙华区" />
+    </LinearLayout>
+
+    <TextView
+        
+        android:id="@+id/ra_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dip"
+        android:layout_toLeftOf="@id/ra_arrow"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dip"
+        android:text="13823214300" />
+
+</RelativeLayout>

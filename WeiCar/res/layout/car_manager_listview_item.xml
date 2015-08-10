@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip"
+    android:orientation="vertical" >
+    
+    
+    <TextView 
+        android:id="@+id/tv_car_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="粤B23456"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dip"
+        android:textSize="@dimen/textsize_middle"
+        android:layout_centerVertical="true"
+        
+        android:textColor="@color/theme_text_normal_color_black"
+        />
+    
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dip"
+        />
+    
+    
+
+</RelativeLayout>

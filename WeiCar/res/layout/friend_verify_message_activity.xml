@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/shape_linear_verify"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车友验证"
+            android:layout_marginLeft="4dip"
+            android:layout_marginTop="5dip"
+            android:textColor="@color/theme_text_normal_color_gary"
+            android:textSize="@dimen/textsize_small" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:padding="4dip"
+                android:src="@drawable/car_friends_add_" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="4dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="大白"
+                    android:textColor="@color/theme_text_normal_color_black"
+                    android:textSize="@dimen/textsize_max" />
+
+                <TextView
+                    android:id="@+id/user_last_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="下星期一起吃饭呀"
+                    android:textColor="@color/theme_text_normal_color_black"
+                    android:textSize="@dimen/textsize_middle" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/all_divider_all_screen"
+            
+            
+             />
+        
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:orientation="horizontal"
+            
+            
+            
+            >
+            
+            <Button 
+                android:id="@+id/friend_verify_agree"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:text="@string/agree"
+                android:textSize="@dimen/textsize_max"
+                android:textColor="@color/theme_text_normal_color_blue"
+                android:background="@drawable/selector_button_white"
+                android:paddingTop="6dip"
+                android:paddingBottom="6dip"
+                android:layout_marginLeft="2dip"
+                />
+            
+            
+            <View 
+                
+                
+                style="@style/all_divider_vertic_all_screen"
+                />
+            
+            <Button 
+                android:id="@+id/friend_verify_refuse"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:text="@string/refuse"
+                android:textSize="@dimen/textsize_max"
+                android:textColor="@color/theme_text_normal_color_blue"
+                android:background="@drawable/selector_button_white"
+                android:paddingTop="6dip"
+                android:paddingBottom="6dip"
+                android:layout_marginRight="2dip"
+                
+                />
+            
+            
+            
+        </LinearLayout>
+        
+        
+        
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+     
+     
+     <!-- 主题颜色 -->
+    <color name="theme_color">#0075A9</color>
+
+    <!-- 鲜明的主题颜色（对比正常颜色显眼） -->
+    <color name="theme_bright">#ffffff</color>
+
+    <!-- 不鲜明的主题颜色（相对于鲜明）(Bright 用于色彩的鲜明) -->
+    <color name="theme_bright_not">#ffffff</color>
+
+    <!-- 字体的主题颜色 -->
+    <color name="theme_text_color">#000000</color>
+    
+    <!-- 字体的选中颜色（一般用于tab） -->
+    <color name="theme_text_selected_color">#39B2ED</color>
+    
+    <!-- 字体的正常颜色 （一般用于tab） -->
+    <color name="theme_text_normal_color">#878787</color>
+    
+    <!-- text的主题颜色1 -->
+    <color name="theme_text_normal_color_black">#000000</color>
+     
+    <!-- text的主题颜色2 -->
+    <color name="theme_text_normal_color_white">#ffffff</color>
+    
+    <!-- text的主题颜色3 -->
+    <color name="theme_text_normal_color_blue">#0268ce</color>
+    
+    <!-- text的主题颜色4 -->
+     <color name="theme_text_normal_color_red">#fa2626</color>
+     
+     <!-- text的主题颜色5 -->
+     <color name="theme_text_normal_color_gary">#cccccc</color>
+     
+     <!-- text的主题颜色6  深灰色 -->
+    <color name="theme_text_normal_color_light_gary">#666666</color>
+    
+    
+    <!-- actionbar上面字体的颜色 -->
+    <color name="theme_actionbar_text_color">#000000</color>
+    
+   
+     <!-- actionbar上面字体的颜色 -->
+    <color name="theme_actionbar_text_color_blue">#0268ce</color>
+    
+     <!-- actionbar上面背景的颜色 -->
+    <color name="theme_actionbar_background_color">#fafafa</color>
+    
+     <!-- actionbar的背景颜色 -->
+    <color name="theme_actionbar_background_color_blue">#56a2ef</color>
+    
+    <!-- 背景的主题颜色 -->
+    <color name="theme_background_color">#f5f5f5</color>
+    
+     <!-- 背景的主题颜色2 -->
+    <color name="theme_background_color_red">#ff0000</color>
+    
+    <!-- 我的足迹 -->
+    <color name="color_homepager_background_2">#f6f6f6</color>
+    
+    <!-- 临时工 兼职的背景 -->
+    <color name="color_homepager_background_3">#fcfcfc</color>
+    
+    <!-- 分界线(driver)的主题颜色 -->
+    <color name="theme_driver_color">#dadada</color>
+    
+    <color name="theme_radio_color">#fe7667</color>
+    
+    
+     
+     <!-- dialog标题的颜色 -->
+     <color name="theme_dialog_title_text_color">#2d2d2d</color>
+     
+     <!-- dialog内容的颜色 -->
+     <color name="theme_dialog_content_text_color">#878787</color>
+     
+     <!-- dialog确定取消的颜色 -->
+     <color name="theme_dialog__confirm_cancel_text_color">#878787</color>
+     
+     <!-- 招聘状态字体的颜色   绿色-->
+     <color name="text_recruitment_suscces_color">#1FB342</color>
+     <color name="text_recruitment_ing_color">#FD714B</color>
+     
+     
+    <!-- 竖着的分割性 -->
+   <color name="text_divider_stand">#D0D0D0</color>
+   
+   <!-- 我的发布里面的标题 -->
+   <color name="my_publish_title_color">#696969</color>
+   
+   <!-- 响应里面的颜色 -->
+   <color name="response_distans_gold_coins">#adadad</color>
+   
+   <!-- 响应里面的报价 -->
+   <color name="response_offer">#B79326</color>
+   
+    <color name="theme_text_">#3e3e3e</color>
+    <color name="tab_textcolor_normal">#5a5a5a</color>
+     <color name="tab_textcolor_selected">#3b95d5</color>
+     
+    
+    <!-- 透明的白 -->
+     <color name="transWhite">#8fffffff</color>
+     
+     <!-- 半透明的黑 -->
+     <color name="transBlack">#2f000000</color>
+     
+     <!-- 主界面的红和蓝 -->
+     <color name="homepager_red">#8ff2786f</color>
+     
+     
+     <color name="homepager_blue">#8f56a2ef</color>
+     
+     <color name="to_here">#56A2EF</color>
+     
+    
+      <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bgColor">#DFDFDF</color>
+    <color name="blueColor">#44B4C5</color>
+    <color name="blackColor">#595959</color>
+    <color name="green">#208820</color>
+    <color name="text_makered">#ff0000</color>
+    <color name="lightBlackColor">#AEAEAE</color>
+    <color name="lightBlackColor2">#444852</color>
+    <color name="TransparentColor">#505A50</color>
+    <color name="redColor">#C90101</color>
+    <color name="grey">#8b8484</color>
+
+</resources>

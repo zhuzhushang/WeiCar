@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/car_friends_chat_cf_vrfity_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:src="@drawable/car_friends_cf_vrfity_message" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/car_friend_cf_verify_messge"
+                android:textColor="@color/theme_text_normal_color_black"
+                android:textSize="@dimen/textsize_max" />
+        </LinearLayout>
+
+        <View style="@style/all_divider_all_screen" />
+
+        <LinearLayout
+            android:id="@+id/car_friends_chat_group_verity_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:src="@drawable/car_friends_group_verity_message" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/car_friend_group_verify_message"
+                android:textColor="@color/theme_text_normal_color_black"
+                android:textSize="@dimen/textsize_max" />
+        </LinearLayout>
+
+        <View style="@style/all_divider_all_screen" />
+        
+        <com.newbrain.customview.MyListview
+            android:id="@+id/car_friends_chat_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/theme_driver_color"
+            android:dividerHeight="@dimen/divider_height"
+            >
+            
+        </com.newbrain.customview.MyListview>
+        
+        
+        
+        
+    </LinearLayout>
+
+</ScrollView>

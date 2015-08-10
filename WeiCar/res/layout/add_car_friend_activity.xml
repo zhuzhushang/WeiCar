@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:background="@color/theme_actionbar_background_color_blue" >
+
+        <TextView
+            android:id="@+id/car_friend_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_max" />
+
+        <RadioGroup
+            android:id="@+id/car_friend_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/selector_radiogroup_background"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/car_friend_chat"
+                style="@style/car_friends_radiobutton"
+                android:checked="true"
+                android:text="@string/car_friend_chat" />
+
+            <RadioButton
+                android:id="@+id/car_friend_cf"
+                style="@style/car_friends_radiobutton"
+                android:text="@string/car_friend" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="3dip"
+        android:paddingBottom="4dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="36dip"
+            android:layout_marginLeft="16dip"
+            android:layout_marginRight="16dip"
+            android:layout_marginTop="6dip"
+            android:background="@drawable/shape_edittext"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingTop="8dp" >
+
+            <EditText
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dip"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:hint="@string/phone_num_group_num"
+                android:textColor="@color/theme_text_normal_color_black"
+                android:textSize="@dimen/textsize_middle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="4dip"
+                android:src="@drawable/icon_poisearch_search" />
+        </LinearLayout>
+    </LinearLayout>
+    
+     <View style="@style/all_divider_all_screen" />
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/car_friends_cf_add_cf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:src="@drawable/search_contact" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/car_friend_contact"
+                android:textColor="@color/theme_text_normal_color_black"
+                android:textSize="@dimen/textsize_max" />
+        </LinearLayout>
+
+        <View style="@style/all_divider_all_screen" />
+
+        <LinearLayout
+            android:id="@+id/car_friends_nearby_cf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:src="@drawable/search_nearby_cf" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/car_friend_nearby_cf"
+                android:textColor="@color/theme_text_normal_color_black"
+                android:textSize="@dimen/textsize_max" />
+        </LinearLayout>
+
+        
+    </LinearLayout>
+    
+    
+    
+    
+
+</LinearLayout>

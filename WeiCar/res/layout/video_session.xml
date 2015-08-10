@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video_session"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <SurfaceView
+        android:id="@+id/surface_remote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true" />
+    <ProgressBar
+        android:id="@+id/progress_remote"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="0.1dip"
+        android:layout_height="0.1dip"
+        android:layout_alignLeft="@+id/surface_remote"
+        android:layout_below="@+id/surface_remote"
+        android:max="100"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress_local"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_toRightOf="@+id/progress_remote"
+        android:max="100" 
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

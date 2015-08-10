@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    
+    
+    <dimen name="weizhangchaxun_num">6dip</dimen>
+    
+    <dimen name="homepager_gridview_margin">12dip</dimen>
+    
+    <dimen name="person_profile_button_margin">16dip</dimen>
+    
+    
+    <dimen name="login_linear_margin">24dip</dimen>
+    
+    
+    <dimen name="decice_marign_top">10dip</dimen>
+    
+    <dimen name="illegal_query_linear_margin">6dip</dimen>
+    
+    
+    <!-- 字体大小  小 -->
+    <dimen name="textsize_small">12sp</dimen>
+    
+    
+    <!-- 字体大小  大 -->
+    <dimen name="textsize_max">16sp</dimen>
+    <!-- 字体大小  中 -->
+    <dimen name="textsize_middle">14sp</dimen> 
+    
+    <!-- 字体大小  title -->
+    <dimen name="textsize_title">18sp</dimen>
+    
+    <dimen name="divider_height">0.5dip</dimen>
+    
+</resources>

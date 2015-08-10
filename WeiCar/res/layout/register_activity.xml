@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/newbrain_all_actionbar" />
+
+   
+
+    <RadioGroup
+        android:id="@+id/register_radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/register_tab1_not_null"
+            style="@style/register_radiobutton"
+            android:checked="true"
+            android:clickable="false"
+            android:text="@string/register_not_null1" />
+
+        <RadioButton
+            android:id="@+id/register_tab2_person_information"
+            style="@style/register_radiobutton"
+            android:visibility="gone"
+            android:text="@string/register_person_information" />
+        
+        <View 
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            
+            android:background="@color/theme_driver_color"
+            
+            />
+
+        <RadioButton
+            android:id="@+id/register_tab3_device_information"
+            style="@style/register_radiobutton"
+            android:clickable="false"
+            android:text="@string/register_device_information" />
+    </RadioGroup>
+    
+     <View style="@style/all_divider_all_screen" />
+
+    <com.newbrain.customview.MyViewPager
+        android:id="@+id/register_viewpager"
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.newbrain.customview.MyViewPager>
+
+</LinearLayout>

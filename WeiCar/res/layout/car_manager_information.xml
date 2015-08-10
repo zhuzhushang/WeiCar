@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+       <include 
+        layout="@layout/newbrain_all_actionbar"
+        
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="@string/ac_tip_head"
+        android:visibility="gone"
+        android:textColor="@color/theme_text_normal_color_red" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="12dp" >
+
+        <TextView style="@style/star" 
+            android:visibility="gone"
+            
+            />
+
+        <TextView
+            style="@style/device_information_textview"
+            
+            android:text="@string/ac_car_device_num" />
+
+        <EditText
+            android:id="@+id/addcar_ac_car_device_num"
+            android:textCursorDrawable="@null"
+            style="@style/all_edittext_right"
+            android:hint="@string/device_please_input_ac_device_num"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView style="@style/star" 
+              android:visibility="gone"
+            />
+
+        <TextView
+            style="@style/device_information_textview"
+            android:text="@string/ac_car_num" />
+
+        <EditText
+            android:id="@+id/device_information_ac_car_num"
+            style="@style/all_edittext_right"
+            android:hint="@string/device_please_input_ac_car_num"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView style="@style/star"
+              android:visibility="gone"
+             />
+
+        <TextView
+            style="@style/device_information_textview"
+            android:text="@string/ac_car_Vehicle_Identification_Number" />
+
+        <EditText
+            android:id="@+id/device_information_ac_car_VIN"
+            style="@style/all_edittext_right"
+            android:hint="@string/device_please_input_ac_vin"
+             />
+    </LinearLayout>
+    
+     <View style="@style/all_view_divider" />
+    
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView
+            style="@style/device_information_textview1"
+            android:text="@string/ac_car_engine" />
+
+        <EditText
+            android:id="@+id/device_information_ac_car_engine"
+            style="@style/all_edittext_right"
+            android:hint="@string/device_please_input_ac_car_engine"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView
+            style="@style/device_information_textview1"
+            android:text="@string/ac_car_sort" />
+
+        <EditText
+            android:id="@+id/device_information_ac_car_sort"
+            style="@style/all_edittext_right"
+            android:hint="@string/device_please_input_ac_car_sort"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView
+            style="@style/device_information_textview1"
+            android:text="@string/ac_car_buy_time" />
+
+        <EditText
+            android:id="@+id/device_information_ac_car_buy_time"
+            style="@style/all_edittext_right"
+            android:hint="@string/device_please_input_ac_car_buy_time"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <LinearLayout
+        style="@style/all_linear_"
+        android:layout_marginTop="@dimen/decice_marign_top" >
+
+        <TextView
+            style="@style/device_information_textview1"
+            android:text="@string/ac_car_recommend" />
+
+        <EditText
+            android:id="@+id/device_information_ac_car_recommend"
+            style="@style/all_edittext_right"
+            android:hint="@string/device_please_input_ac_car_recommend"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="@string/ac_tip_end"
+        android:visibility="gone"
+         />
+    
+    
+    
+
+</LinearLayout>

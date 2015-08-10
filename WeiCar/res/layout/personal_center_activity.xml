@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/newbrain_all_actionbar" />
+
+    <LinearLayout style="@style/personal_center_linear" >
+
+        <RelativeLayout 
+            
+            android:id="@+id/personal_center_user_message"
+            style="@style/personal_center_relative" >
+
+            <ImageView
+                android:id="@+id/personal_center_user_avatars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="6dip"
+                android:src="@drawable/no_login_user" />
+
+            <TextView
+                android:id="@+id/personal_center_user_login_or_user_detail"
+                style="@style/personal_center_textview2"
+                android:layout_toRightOf="@id/personal_center_user_avatars"
+                android:text="点击登录" />
+
+            <ImageView style="@style/personal_center_arrow" />
+        </RelativeLayout>
+
+        <View style="@style/personal_center_view_divider" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_address_manager"
+            style="@style/personal_center_relative" >
+
+            <TextView
+                style="@style/personal_center_textview"
+                android:text="收货地址管理" />
+
+            <ImageView style="@style/personal_center_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/personal_center_linear"
+        android:layout_marginTop="8dip" >
+
+        <RelativeLayout
+            android:id="@+id/personal_center_gps_data_share"
+            style="@style/personal_center_textview" >
+
+            <TextView
+                style="@style/personal_center_textview"
+                android:layout_marginLeft="0dip"
+                android:text="@string/personal_center_gps_data_share" />
+            
+            <ToggleButton 
+                android:id="@+id/personal_center_gps_toggle"
+                style="@style/all_check_button"
+               
+                
+                
+                />
+            
+
+            <!-- <ImageView style="@style/personal_center_arrow" /> -->
+        </RelativeLayout>
+
+        <View style="@style/personal_center_view_divider" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_voice_tip"
+            style="@style/personal_center_relative" >
+
+            <TextView
+                style="@style/personal_center_textview"
+                android:text="@string/personal_center_voice_tip" />
+            
+             <ToggleButton 
+                android:id="@+id/personal_center_message_tip_toggle"
+                style="@style/all_check_button"
+               
+                
+                
+                />
+            
+
+          <!--  <ImageView style="@style/personal_center_arrow" /> -->
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/personal_center_linear"
+        android:layout_marginTop="8dip" >
+
+        <RelativeLayout
+            android:id="@+id/personal_center_change_background"
+            style="@style/personal_center_relative" >
+
+            <TextView
+                style="@style/personal_center_textview"
+                android:text="@string/personal_center_change_background" />
+
+            <ImageView style="@style/personal_center_arrow" />
+        </RelativeLayout>
+
+        <View style="@style/personal_center_view_divider" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_clean_cache"
+            style="@style/personal_center_relative" >
+
+            <TextView
+                style="@style/personal_center_textview"
+               
+                android:text="@string/personal_center_clean_cache" />
+
+            <ImageView style="@style/personal_center_arrow" />
+        </RelativeLayout>
+
+        <View style="@style/personal_center_view_divider" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_regard_ours"
+            style="@style/personal_center_relative" >
+
+            <TextView
+                style="@style/personal_center_textview"
+                android:text="@string/personal_center_regard_ours" />
+
+            <ImageView style="@style/personal_center_arrow" />
+        </RelativeLayout>
+
+        <View style="@style/personal_center_view_divider" />
+
+        <RelativeLayout
+            android:id="@+id/personal_center_feedback"
+            style="@style/personal_center_relative" >
+
+            <TextView
+                style="@style/personal_center_textview"
+                android:text="@string/personal_center_feedback" />
+
+            <ImageView style="@style/personal_center_arrow" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

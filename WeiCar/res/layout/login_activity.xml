@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/newbrain_all_actionbar" />
+
+    <LinearLayout style="@style/all_linear_" 
+        
+        android:layout_marginTop="32dp"
+        
+        >
+
+        <TextView
+            style="@style/all_textview_left"
+            android:layout_width="50dip"
+            android:gravity="center"
+            android:text="@string/phone_num" />
+
+        <EditText
+            android:id="@+id/login_phone_num"
+            style="@style/all_edittext_right"
+            android:hint="@string/please_input_nicheng"
+            />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+    
+    
+     <LinearLayout style="@style/all_linear_" 
+        android:layout_marginTop="10dip"
+        
+        
+        >
+
+        <TextView
+            style="@style/all_textview_left"
+             android:layout_width="50dip"
+            android:gravity="center"
+            android:text="@string/password" />
+
+        <EditText
+             android:id="@+id/login_password"
+            style="@style/all_edittext_right"
+            android:inputType="textPassword"
+            android:hint="@string/register_password"
+             />
+    </LinearLayout>
+
+    <View style="@style/all_view_divider" />
+    
+    
+    <LinearLayout style="@style/all_linear_" 
+        android:layout_marginTop="4dip"
+        
+        
+        >
+        
+        <TextView 
+            android:id="@+id/login_register"
+            style="@style/textview_forget_password"
+            android:text="注册"
+            
+            />
+        
+        <TextView 
+            style="@style/textview_forget_password"
+            android:text="忘了密码？"
+            
+            
+            />
+        
+        
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

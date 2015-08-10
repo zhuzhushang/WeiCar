@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_background_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/newbrain_all_actionbar" />
+
+    <LinearLayout
+        style="@style/person_profile_linear_white_bg"
+        android:gravity="center"
+        android:layout_marginTop="2dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dip"
+            android:layout_marginLeft="6dip"
+            android:src="@drawable/cheyoutouxiang" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="6dip"
+            android:layout_marginTop="4dip"
+            android:layout_marginBottom="4dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    style="@style/person_profile_textview_black"
+                    android:layout_marginLeft="0dip"
+                    android:text="钢制龙商务中心" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dip"
+                    android:src="@drawable/boy" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/person_profile_"
+                android:layout_width="wrap_content"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:textColor="@color/theme_text_normal_color_gary"
+                android:gravity="center_vertical"
+                android:text="行驶公里数：1087.8km" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/person_profile_linear_white_bg" 
+        android:layout_marginTop="8dip"
+        
+        >
+
+        <TextView
+            style="@style/person_profile_textview_black"
+            android:text="地区" />
+
+        <TextView
+            android:id="@+id/person_profile_address"
+            style="@style/person_profile_textview_grey"
+            android:text="广东深圳" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/person_profile_linear_white_bg" >
+
+        <TextView
+            style="@style/person_profile_textview_black"
+            android:text="签名" />
+
+        <TextView
+            android:id="@+id/person_profile_sign"
+            style="@style/person_profile_textview_grey"
+            android:text="不经历风雨怎么见彩虹" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/person_profile_linear_white_bg"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="申请查看车辆信息"
+        android:textColor="@color/theme_text_normal_color_blue"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/person_profile_send_message"
+        style="@style/person_profile_button"
+        android:layout_marginTop="18dip"
+        android:background="@drawable/bg_blue"
+        android:text="发消息" />
+
+    <Button
+        android:id="@+id/person_profile_delete_friends"
+        style="@style/person_profile_button"
+        android:layout_marginTop="6dip"
+        android:background="@drawable/bg_white"
+        android:text="发消息" />
+
+</LinearLayout>

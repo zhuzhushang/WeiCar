@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+     <LinearLayout
+            android:id="@+id/car_friends_chat_cf_vrfity_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/car_friend_head_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dip"
+                android:src="@drawable/car_friends_cf_vrfity_message" />
+
+            <TextView
+                android:id="@+id/car_friend_nicename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="强子"
+                android:textColor="@color/theme_text_normal_color_black"
+                android:textSize="@dimen/textsize_max" />
+        </LinearLayout>
+    
+
+</LinearLayout>

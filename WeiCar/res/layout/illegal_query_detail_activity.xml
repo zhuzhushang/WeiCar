@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/newbrain_all_actionbar" />
+
+    <LinearLayout style="@style/illegal_query_linear" >
+
+        <TextView
+            style="@style/illegal_query_textview_left"
+            android:text="@string/illegal_query_address" />
+
+        <TextView
+            android:id="@+id/illegal_query_address"
+            style="@style/illegal_query_textview_right"
+            android:text="身缠公路 身缠公路龙洞市场路楼sxdsds" />
+    </LinearLayout>
+    
+    
+    <LinearLayout style="@style/illegal_query_linear" >
+
+        <TextView
+            style="@style/illegal_query_textview_left"
+            android:text="@string/illegal_query_content" />
+
+        <TextView
+            android:id="@+id/illegal_query_content"
+            style="@style/illegal_query_textview_right"
+            android:text="身缠公路 身缠公路龙洞市场路楼" />
+    </LinearLayout>
+    
+    
+    <LinearLayout style="@style/illegal_query_linear" >
+
+        <TextView
+            style="@style/illegal_query_textview_left"
+            android:text="@string/illegal_query_time" />
+
+        <TextView
+            android:id="@+id/illegal_query_time"
+            style="@style/illegal_query_textview_right"
+            android:text="身缠公路 身缠公路龙洞市场路楼" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/illegal_query_linear" >
+
+        <TextView
+            style="@style/illegal_query_textview_left"
+            android:text="@string/illegal_query_state" />
+
+        <TextView
+            android:id="@+id/illegal_query_state"
+            style="@style/illegal_query_textview_right"
+            android:text="身缠公路 身缠公路龙洞市场路楼" />
+    </LinearLayout>
+    
+    
+    <LinearLayout style="@style/illegal_query_linear" >
+
+        <TextView
+            style="@style/illegal_query_textview_left"
+            android:text="@string/illegal_query_money" />
+
+        <TextView
+            android:id="@+id/illegal_query_money"
+            style="@style/illegal_query_textview_right"
+            android:text="身缠公路 身缠公路龙洞市场路楼" />
+    </LinearLayout>
+    
+    
+    <LinearLayout style="@style/illegal_query_linear" >
+
+        <TextView
+            style="@style/illegal_query_textview_left"
+            android:text="@string/illegal_query_points" />
+
+        <TextView
+            android:id="@+id/illegal_query_points"
+            style="@style/illegal_query_textview_right"
+            android:text="身缠公路 身缠公路龙洞市场路楼" />
+    </LinearLayout>
+    
+    
+    
+    
+    
+
+</LinearLayout>

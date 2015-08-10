@@ -1,0 +1,12 @@
+package com.newbrain.utils;
+
+public class Keys {
+
+	// 合作商户ID。用签约支付宝账号登录ms.alipay.com后，在账户信息页面获取。
+	public static final String PARTNER = "2088101000635266";
+	// 账户ID。用签约支付宝账号登录ms.alipay.com后，在账户信息页面获取。
+	public static final String SELLER = "b2c-hwxc@nepstar.cn";
+	// 商户私钥，自助生成
+	public static final String RSA_PRIVATE = "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAKjqOpiv9I4QsSTg6yK+RSKNb4mT9h26c1lKLl0GXyyrpyVmiqA6D5tvsNYCp8EDvZVidGy6QAI1ef7Z0g8D4i13nm6ZLDaYY+6x/FK4XraUEE2Qb6ptgAMcRwWH20jB1EfLiMmtWYHevlpnBO/TaU5AUhvKFV4+isE+HgcPNzqrAgMBAAECgYBDfTqmUP9MV9z/WCJ6wj0LPimHdafLXvjBf0MhBe+3AGqLJfpTZH9h4nFsQKlYFC+GZU0ROCVk/IreyZcFSs7uJ3pTh0b6XQAUIbiKi2WqkU5gPnz08QWASD2XjrIbpMdVm/zlUuZwT9Xy7KLYG3lCw9uWLMavLuvD8qlJe0PRAQJBANTpWKE/LgzezOekaO67Bc2rZbiOpfR296Wm6oW3iBMLQTRGMLe/FmZ+eFQgaFc6Jfd3QQSwYj67zTgKJNfhcoECQQDLGXtHAPirBBHnyK8AamPpZRiFsetgYlxY/mmW+1K5/8zY4Cxr834DYy3OrIWL1TreZOjTheSMj/5GdEeJC38rAkBKBaqzvOSEwv1YV7fHsCwPWlSuOqIGAUqORB7rSGi9vj74LqMHbx8ZmUS6ct3z3ZqPk91+BNjTWLW7kwNGLvKBAkA9rfRpYNskHK1PZfv3tVe4ZtJmr9zavaRsBn+MsbCy+gN9Db+P3Te00ab0sCIykEQ7jAvFSVFaetRvExsyfIJXAkEAoI0w6SNL4/giM4bimov2DkaZ+b55xYyNo9pVBkkSMPb0Une8xgz9OLXnKgc7P6KpjNQ6+owv94epR5VCEDDl3Q==";
+
+}
